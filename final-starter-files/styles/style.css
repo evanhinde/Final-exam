@@ -1,0 +1,168 @@
+@import url(./reset.css);
+
+body {
+    background-image: url(../images/background.jpg);
+    background-repeat: repeat;
+}
+
+
+
+
+
+/* NAVIGATION */
+nav {
+    background-color: blue;
+    height: 60px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 2em;
+    justify-content: center;
+    align-items: center;
+}
+
+nav a {
+    height: 60px;
+    display: flex;
+    color: white;
+    font-size: 1em;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 1em;
+    transition: 0.25s;
+}
+
+nav a:hover {
+    background-color: darkblue;
+}
+
+/* HEADER */
+header {
+    background: url(../images/jason-dent-itA0ybdIDTs-unsplash.jpg);
+    background-size: cover;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 250px;
+    margin-bottom: 2em;
+}
+
+h1 {
+    font-size: 3em;
+    margin: 0.3em;
+}
+
+h2 {
+    font-size: 2.2em;
+    margin: 0.3em;
+}
+
+button {
+    width: 120px;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    background: gray;
+    color: white;
+}
+
+/* MAIN CONTENT */
+.main-content {
+
+    margin: 0 auto;
+    padding: 1em;
+    margin-bottom: 2em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2em;
+}
+
+/* MAIN */
+main {
+    width: 70%;
+    background-color: white;
+    float: right;
+    padding: 1em;
+    height: 100%;
+}
+
+/* ASIDE */
+aside {
+    width: 30%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    float: left;
+    height: 100%;
+}
+
+aside h2 {
+    background-color: blue;
+    color: white;
+    font-size: 1.7em;
+    padding: 1em;
+    height: 100%;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+}
+
+aside ul {
+    padding: 1em;
+    height: 100%;
+}
+
+aside li {
+    margin-bottom: 0.5em;
+}
+
+aside li strong {
+    font-weight: bold;
+}
+
+/*FIGURE*/
+figure {
+    margin-left: 1.5em;
+    margin-right: 1.5em;
+    float: left;
+}
+
+figure cite {
+    display: block;
+}
+
+figure a {
+    text-decoration: none;
+    color: blue;
+}
+
+figure img {
+    width: 200px;
+}
+
+
+/* FOOTER */
+footer {
+    background: url(../images/jason-dent-itA0ybdIDTs-unsplash.jpg);
+    color: white;
+    bottom: 0;
+    position: bottom;
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+footer p {
+    margin: 0.5em;
+}
